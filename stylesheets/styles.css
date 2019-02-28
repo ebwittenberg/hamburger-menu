@@ -18,6 +18,11 @@ nav h2 {
     margin-left: 75px;
 }
 
+.nav-text.hidden {
+    position: absolute;
+    left: -1000px;
+}
+
 nav .fa-window-close {
     color: blue;
     float: right;
@@ -26,11 +31,16 @@ nav .fa-window-close {
 
 nav ul {
     margin-top: 100px;
+    border: 3px solid brown;
 }
 
 nav ul li {
     list-style: none;
     margin-top: 45px;
+}
+
+nav.hidden {
+    width: 5%;
 }
 
 main {
